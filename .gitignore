@@ -160,3 +160,25 @@ cython_debug/
 #.idea/
 
 media/
+
+# Next.js
+.next/
+out/
+node_modules/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SQLite
+*.db
+*.db-journal
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Playwright MCP snapshots
+.playwright-mcp/
+
+# Prisma generated client
+src/generated/
